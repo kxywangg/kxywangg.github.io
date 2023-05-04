@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Logos CSS--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+<body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-light ps-2 mb-0">
+                <a class="navbar-brand" href="index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CGA
+                            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="games.html">Games</a></li>
+                            <li><a class="dropdown-item" href="reservations.html">Reservations</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="esports.html">Esports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        <!-- website header -->
+        <header>
+            <div class="row">
+                <div class="col-4" id="cgalogos">
+                    <div class="row align-items-center">
+                        <div class="col-12"> 
+                            <img src="images/cgalogo.png" class="img-responsive homelogo" alt="carolina gaming arena logo">
+                        </div>
+                    </div>
+                <!--    <div class="row">
+                        <div class="col-6 bg-primary">
+                            <img src="images/esportslogo1.png" class="img-fluid homelogo" alt="unc-ch esports logo">
+                        </div>
+                        <div class="col-6">
+                            <img src="images/esportslogo2.png" class="img-fluid homelogo" alt="carolina esports logo">
+                        </div>
+                    </div>-->
+                </div>
+                <div class="col-8 overlay">
+                    <h1>Carolina Gaming Arena</h1>
+                </div>
+            </div>
+        </header>
+        <!-- announcement -->
+        <div class="row">
+            <div class="col-sm-12 announce text-center px-4 py-4">
+                <h3>Announcements</h3>
+                <p>Reservations for the CGA are not required but please press the
+                    button below if you would like to make a reservation to guarantee your seat!
+                </p>
+                <a href="reservations.html" class="btn btn-lg" role="button" id="reserve"><strong>Reserve Your Seat!</strong></a>
+            </div>
+        </div>
+        <!-- upcoming events -->
+        <div class="row">
+            <div class="col-sm-12 text-center py-4">
+                <h3>Upcoming Events</h3>
+                <div class="row event rounded m-3 align-items-center">
+                    <div class="col-3">
+                        <h3>APR 23 2023</h3>
+                    </div>
+                    <div class="col-9 py-3 px-3">
+                        <h4>Smash Ultimate Weeklies</h4>
+                        <h6>3PM-11PM EST @ Carolina Gaming Arena</h6>
+                        <p class="text-break">Join the Carolina Esports Club Smash community for weekly matches every other Sunday. Find them in Discord to get started: <a class="permalink2" href="https://discord.com/invite/uncesports">https://discord.com/invite/uncesports.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- news and updates -->
+        <div class="row">
+            <div class="col-sm-12 news text-center px-5 py-4">
+                <h3>News and Updates</h3>
+                <h6 class="text-start pt-3">NOW HIRING FOR FALL 2023</h6>
+                <p class="text-start py-2">Want to join the team of Gaming Assistants who make the Carolina Gaming Arena a great place for students to play? We’re hiring for a few spots to begin this fall, and applications close soon ... <a class="permalink" href="https://carolinagaming.unc.edu/2022/08/now-hiring-for-fall-2022/">Continued</a></p>
+                <hr>
+                <h6 class="text-start pt-2">CLUB LEADERSHIP TRANSITIONS</h6>
+                <p class="text-start py-2">We’re at the end of another year at Carolina, and with that chapter closing we look to the next transition of club leadership. Every Spring semester the Carolina Esports Club elects from its membership a new President and Vice President … <a class="permalink" href="https://carolinagaming.unc.edu/2021/05/club-leadership-transitions/">Continued</a></p>
+            </div>
+        </div>
+        <!-- industry partners -->
+        <div class="row">
+            <div class="col-sm-12 text-center py-3">
+                <h3>Our Industry Partners</h3>
+                <img src="images/industrylogos.png" class="img-fluid partners" alt="industry partners logos">
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="col-12 py-2">
+        <div class="row px-3">
+            <div class="col-4 py-2">
+                <img src="images/housing.png" class="img-fluid mb-2 footerimg" alt="carolina housing logo">
+                <img src="images/studentaffairs.webp" class="img-fluid mb-2 footerimg" alt="student affairs logo">
+            </div>
+            <div class="col-8 text-end pt-2">
+                <a class="references pe-3" href="https://carolinagaming.unc.edu/glhf-pledge-for-inclusion/">GLHF Pledge For Inclusion</a>
+                <br>
+                <a class="references pe-3" href="https://carolinagaming.unc.edu/resources/">Resources</a>
+                <br>
+                <a class="references pe-3" href="https://carolinagaming.unc.edu/inclusion/">Code of Conduct</a>
+                <br>
+                <a class="references pe-3" href="https://carolinagaming.unc.edu/contact-us/">Contact Us</a>
+                <br>
+                <div class="pe-3 pt-1">
+                    <a href="https://www.facebook.com/thecarolinaesports"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/carolinagamingarena/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/carolinaesports"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.snapchat.com/add/unc_gaming"><i class="fa fa-snapchat"></i></a>
+                </div>
+            </div>
+        </div>
+        </footer>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

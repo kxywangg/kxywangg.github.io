@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* font styling start */
+h1 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 46pt;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif!important;;
+    font-size: 36pt;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif!important;;
+    font-size: 28pt;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif!important;;
+    font-size: 18pt;
+}
+
+h6 {
+    font-weight: 700;
+}
+body, p {
+    font-family: 'Montserrat', sans-serif!important;;
+}
+/* font styling end */
+
+/* general styling end */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* general styling end */
+
+/* navbar styling start */
+.navbar {
+    background-color: #001D38;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #7BAFD4;
+}
+
+.dropdown-item, .dropdown-menu {
+    background-color: #001D38;
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+/* navbar styling end */
+
+/* index header styling start */
+#cgalogos {
+    height: 30vh;
+    background-color: #7BAFD4;
+}
+
+.homelogo {
+    max-height: 30vh;
+    height: auto;
+    width: auto;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    background-image: url("/images/arena.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    opacity: 80%;
+    color: white;
+    text-align: center;
+}
+
+
+/* index header styling end */
+
+/* index styling start */
+#reserve {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    background-color: #7BAFD4
+}
+
+#reserve:hover {
+    background-color: #001D38;
+    color: white;
+}
+
+.announce, .news {
+    background-color: #447B9D;
+    color: white;
+}
+
+.event {
+    background-color: #7BAFD4;
+}
+
+.permalink {
+    color: white;
+}
+
+.permalink:hover {
+    color: black;
+}
+
+.permalink2 {
+    color: black;
+}
+
+.permalink2:hover {
+    color: white;
+}
+/* index styling end */
+
+/* footer styling start */
+footer {
+    background-color: #001D38;
+    width: 100%;
+    font-size: 20px;
+}
+
+.references {
+    font-size: 10pt;
+    padding-top: 2px;
+    color: white;
+}
+
+.references:hover {
+    color: #7BAFD4;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover {
+    color: #7BAFD4;
+}
+/* footer styling end */
+
+/* esports styling start */
+.esports-head2 {
+    background-color: #447B9D;
+    color: white;
+}
+.esports-links {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    background-color: #001D38;
+    color: white;
+    width: 75%;
+}
+
+.esports-links:hover {
+    background-color: #447B9D;
+    color: white;
+}
+/* esports styling end */
+
+/* reservations styling start */
+.reservation {
+    background-color: #447B9D;
+    color: white; 
+}
+
+#frame {
+    border: 3px;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+}
+
+.reservation2 {
+    background-color: #447B9D;
+    color: white; 
+}
+/* reservations styling end */
+
+/* games styling start */
+.card-body {
+    max-height: 100px;
+    max-width: 150px;
+    margin-right: 5px;
+    padding-right: 0px;
+    padding-top: 15px;
+}
+
+@media (min-width: 360px) {
+    .card-group.card-group-scroll {
+        overflow-x:auto;
+        flex-wrap: nowrap;
+        word-wrap: break-word;
+    }
+}
+
+.card-group.card-group-scroll > .card {
+    flex-basis: 30%;
+}
+
+.verticaltext{
+    width:1px;
+    word-wrap: break-word;
+    white-space:pre-wrap; 
+    font-family: 'Playfair Display', serif;
+    color: white;
+ }
+
+.card-title {
+    font-size: 16px;
+}
+
+ .console {
+    background-color: #447B9D;
+ }
+
+ .console p {
+    font-size: 13pt;
+ }
+
+ .card-img-top.ps4 {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+}
+ 
+.card-img-top.xbox {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+}
+
+.card-img-top.pc {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+}
+
+.descript {
+    color: white;
+}
+ /* games styling end */
+
+/* events styling start */
+.smash {
+    background-image: url("/images/smash.jpeg");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.upcoming {
+    background-color: white;
+}
+
+.past {
+    background-color: white;
+    max-width: 95%;
+}
+
+.month {
+    color: white;
+    font-weight: 700;
+}
+
+.upcomingevent {
+    background-color: #001D38;
+    border-radius: 6px;
+    color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.permalink3 {
+    color: black;
+}
+
+.permalink3:hover {
+    color: #447B9D;
+}
+
+.ch-esports-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15vw;
+    height: auto;
+    max-height: 180px;
+}
+/* events styling end */
+
+/** media query styling for medium and large screens **/
+@media screen and (min-width: 480px) {
+    /* index styling */
+    .partners {
+        display: block;
+        height: 20vh;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* footer img styling */
+    .footerimg {
+        display: block;
+        height: 10vh;
+        width: auto;
+    }
+}
+
+/* cga logo sizing styling */
+@media screen and (min-width: 720px) {
+    .homelogo {
+        max-height: 30vh;
+        height: auto;
+        width: auto;
+        margin-top: 4vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/** media query styling for large screens **/
+@media screen and (min-width: 980px) {
+    /* game card img styling */
+    .card-group.card-group-scroll > .card {
+        flex-basis: 20vw;
+        height: 30vw;
+    }
+    .card-img-top.ps4 {
+        width: 20vw;
+        height: 25vw;
+        object-fit: cover;
+    }
+     
+    .card-img-top.xbox {
+        width: 20vw;
+        height: 25vw;
+        object-fit: cover;
+    }
+    
+    .card-img-top.pc {
+        width: 20vw;
+        height: 25vw;
+        object-fit: cover;
+    } 
+
+    .homelogo {
+        max-height: 30vh;
+        height: auto;
+        width: auto;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
